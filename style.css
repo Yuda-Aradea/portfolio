@@ -118,6 +118,14 @@ a {
   width: 300px;
   justify-content: space-evenly;
   border-radius: 12px;
+  cursor: pointer;
+}
+.proyek-list img:hover {
+  transform: scale(1.1);
+  transition: all 0.7s ease;
+}
+.list p {
+  cursor: pointer;
 }
 
 /* footer-wrapper */
