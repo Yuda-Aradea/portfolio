@@ -17,13 +17,17 @@
   .list-menu {
     display: none;
   }
+  
+  .logo {
+    letter-spacing: 3px;
+  }
 
   .menu-icon {
     display: block !important;
   }
 
   .judul h1 {
-    font-size: 45px;
+    font-size: 32px;
   }
 
   .judul h2 {
