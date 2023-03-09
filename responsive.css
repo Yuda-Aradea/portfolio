@@ -17,9 +17,11 @@
   .list-menu {
     display: none;
   }
-  
+
   .logo {
-    letter-spacing: 3px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 40px;
   }
 
   .menu-icon {
@@ -31,7 +33,7 @@
   }
 
   .judul h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .fa {
@@ -50,5 +52,40 @@
   }
   .list p {
     padding-bottom: 20px;
+  }
+
+  .tentang p {
+    text-align: justify;
+  }
+
+  input,
+  textarea {
+    width: 80%;
+  }
+
+  .message {
+    margin-bottom: 5px;
+  }
+  .btn {
+    padding: 7px 40px;
+    font-size: 13px;
+  }
+
+  .footer {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-left {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .footer-right {
+    display: flex;
+  }
+
+  .footer-right a {
+    flex: auto;
   }
 }
