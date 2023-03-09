@@ -1,0 +1,198 @@
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  margin: 0%;
+}
+
+header {
+  background-color: black;
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+.logo {
+  color: white;
+  font-size: 12px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  margin: 0%;
+  cursor: pointer;
+}
+
+.list-menu {
+  line-height: 65px;
+  margin-left: 30px;
+}
+
+.menu-icon {
+  color: white;
+  margin: 0 0 0 auto;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none !important;
+}
+
+.list-menu a {
+  color: white;
+  padding-right: 10px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* Top wrapper */
+.top-wrapper {
+  padding-top: 120px;
+  text-align: center;
+}
+.judul h1 {
+  font-size: 60px;
+  margin-bottom: 0%;
+}
+.judul span {
+  color: burlywood;
+}
+.judul h2 {
+  opacity: 0.5;
+  margin-bottom: 0%;
+}
+.judul img {
+  width: 200px;
+}
+
+/* Content wrapper */
+
+.content-wrapper {
+  text-align: center;
+  background-color: #eee;
+  margin-top: 60px;
+  width: auto;
+}
+
+.tentang h2 {
+  padding-top: 80px;
+  margin-bottom: 30px;
+}
+
+.tentang p {
+  opacity: 0.5;
+  font-size: 13px;
+  padding-bottom: 80px;
+}
+
+/* boddy wrapper */
+
+.body-wrapper {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.proyek-list {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  width: auto;
+}
+.list {
+  flex: auto;
+  justify-content: space-evenly;
+}
+.proyek-list img {
+  width: 300px;
+  justify-content: space-evenly;
+  border-radius: 12px;
+}
+
+/* footer-wrapper */
+
+.footer-wrapper {
+  text-align: center;
+  background-color: #eee;
+  width: auto;
+}
+
+.footer-wrapper h2 {
+  padding-top: 80px;
+}
+
+.contact {
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+}
+
+input,
+textarea {
+  width: 50%;
+  padding: 10px 0 10px 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+.message {
+  margin-bottom: 15px;
+}
+.btn {
+  color: white;
+  background-color: #5dca88;
+  padding: 10px 50px;
+  border-radius: 10px;
+  box-shadow: 0 7px #1a7940;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  background-color: slategray;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.footer-left {
+  color: white;
+  font-size: small;
+  letter-spacing: 3px;
+}
+
+.footer-right {
+  padding-top: 10px;
+}
+.footer-right a {
+  display: block;
+  color: white;
+  font-size: 12px;
+  line-height: 32px;
+}

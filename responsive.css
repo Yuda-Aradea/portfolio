@@ -1,0 +1,50 @@
+/* Max width 1000px */
+
+@media (max-width: 1000px) {
+  .container {
+    width: auto;
+    padding: 0px 15px;
+  }
+
+  .proyek-list img {
+    width: 90%;
+  }
+}
+
+/* max width 670px */
+
+@media (max-width: 670px) {
+  .list-menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block !important;
+  }
+
+  .judul h1 {
+    font-size: 45px;
+  }
+
+  .judul h2 {
+    font-size: 18px;
+  }
+
+  .fa {
+    font-size: 25px !important;
+  }
+
+  .proyek-list {
+    display: block;
+  }
+  .list {
+    flex-wrap: wrap;
+  }
+
+  .proyek-list img {
+    width: 60%;
+  }
+  .list p {
+    padding-bottom: 20px;
+  }
+}
